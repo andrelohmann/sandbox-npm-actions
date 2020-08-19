@@ -1,0 +1,27 @@
+{
+  "name": "@sandbox/sandbox-npm-actions",
+  "version": "1.0.0",
+  "description": "sandbox todo module to evaluate github actions for building and loading npm modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrelohmann/sandbox-npm-actions.git"
+  },
+  "keywords": [
+    "sandbox",
+    "package"
+  ],
+  "author": "Andre Lohmann <lohmann.andre@gmail.com> (https://github.com/andrelohmann)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrelohmann/sandbox-npm-actions/issues"
+  },
+  "homepage": "https://github.com/andrelohmann/sandbox-npm-actions#readme",
+  "devDependencies": {
+    "mocha": "^8.1.1",
+    "request": "^2.88.2"
+  }
+}
